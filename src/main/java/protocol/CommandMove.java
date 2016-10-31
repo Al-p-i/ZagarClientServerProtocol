@@ -5,7 +5,7 @@ import org.jetbrains.annotations.NotNull;
 /**
  * @author apomosov
  */
-public class CommandMove extends Command {
+public final class CommandMove extends Command {
   @NotNull
   public static final String NAME = "move";
 
@@ -15,5 +15,13 @@ public class CommandMove extends Command {
     super(NAME);
     this.dx = dx;
     this.dy = dy;
+  }
+
+  public float getDx() {
+    return dx;
+  }
+
+  public float getDy() {
+    return dy;
   }
 }

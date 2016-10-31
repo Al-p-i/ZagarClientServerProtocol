@@ -5,7 +5,7 @@ import org.jetbrains.annotations.NotNull;
 /**
  * @author apomosov
  */
-public class CommandEjectMass extends Command {
+public final class CommandEjectMass extends Command {
   @NotNull
   public static final String NAME = "eject";
 

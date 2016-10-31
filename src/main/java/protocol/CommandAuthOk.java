@@ -5,7 +5,7 @@ import org.jetbrains.annotations.NotNull;
 /**
  * @author apomosov
  */
-public class CommandAuthOk extends Command {
+public final class CommandAuthOk extends Command {
   @NotNull
   public static final String NAME = "auth_ok";
 
